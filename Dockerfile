@@ -1,6 +1,7 @@
 FROM ubuntu:xenial
 
 # Install the packages we need. Avahi will be included
+# updated with cups bjnp
 RUN apt-get update && apt-get install -y \
 	cups \
 	cups-pdf \
